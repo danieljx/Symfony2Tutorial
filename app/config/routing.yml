@@ -1,3 +1,7 @@
+djx_user:
+    resource: "@DJXUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

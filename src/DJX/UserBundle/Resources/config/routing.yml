@@ -1,0 +1,19 @@
+djx_user_index:
+    path:     /user/index
+    defaults: { _controller: DJXUserBundle:User:index }
+
+djx_user_add:
+    path:     /user/add
+    defaults: { _controller: DJXUserBundle:User:add }
+    
+djx_user_edit:
+    path:     /user/edit/{id}
+    defaults: { _controller: DJXUserBundle:User:edit }
+
+djx_user_view:
+    path:     /user/view/{id}
+    defaults: { _controller: DJXUserBundle:User:view }
+
+djx_user_delete:
+    path:     /user/delete/{id}
+    defaults: { _controller: DJXUserBundle:User:delete }
